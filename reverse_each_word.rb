@@ -6,7 +6,7 @@ def reverse_each_word(string)
 end
 
 def reverse_each_word(string)
-  string.map do
+  string.collect do
     string.reverse
   end
 end
