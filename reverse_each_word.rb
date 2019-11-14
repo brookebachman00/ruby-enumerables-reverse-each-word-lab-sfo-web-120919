@@ -13,5 +13,5 @@ def reverse_each_word(string)
   new_word = word.reverse
   new_array << new_word
   end
-  return new_array.join( )
+  return new_array.join(' ')
 end
