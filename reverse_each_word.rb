@@ -4,3 +4,9 @@ def reverse_each_word(string)
   end
   return word
 end
+
+def reverse_each_word(string)
+  string.map do
+    string.reverse
+  end
+end
